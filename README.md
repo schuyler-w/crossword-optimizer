@@ -24,7 +24,7 @@ These variables have both unary and binary constraints:
 
 * Arc Consistency - when all the values in a variable's domain satisfy the variable's binary constraints.
 * To make X arc-consistent with respect to Y, remove elements from X's domain until every choice for X has a possible choice for Y.
-* 
+  
 ### Backtracking Search
 
 * Backtracking Search is a recursive algorithm often employed to solve constraint satisfaction problems. Here values are assigned to each variable from the variable's domain, one at a time.
